@@ -5,20 +5,21 @@ import AudioMirror from "./AudioMirror";
 const hasHeadsetCheck = (callback) => {
   const updateDevices = () => {
     navigator.mediaDevices
-      .enumerateDevices()
-      .then(function (devices) {
-        // check to see if we have any device with "head" in its name connected
-        // like "headset" or "headphones"
-        let headphonesConnected = devices
-          .filter((device) => /audio\w+/.test(device.kind))
-          .find((device) => device.label.toLowerCase().includes("head"));
-        if (headphonesConnected) {
-          callback(true);
-        } else {
-          callback(false);
-        }
-      })
-      .catch(() => callback(false));
+      .getUserMedia({ audio: true })
+      .then((stream) => {
+        return navigator.mediaDevices.enumerateDevices().then(function (devices) {
+          // check to see if we have any device with "head" in its name connected
+          // like "headset" or "headphones"
+          let headphonesConnected = devices
+            .filter((device) => /audio\w+/.test(device.kind))
+            .find((device) => device.label.toLowerCase().includes("head"));
+          if (headphonesConnected) {
+            callback(true);
+          } else {
+            callback(false);
+          }
+        });
+      }).catch(() => callback(false));
   };
   updateDevices();
   // add an ondevicechange event listener so we can tell when
