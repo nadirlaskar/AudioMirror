@@ -31,7 +31,6 @@ const setupAudio = (audio) => {
       audio.onloadedmetadata = function (ev) {
         // Play the audio in the 2nd audio
         // element what is being recorded
-        console.log('playing')
         audio.play();
       };
     })
