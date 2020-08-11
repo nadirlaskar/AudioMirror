@@ -37,21 +37,22 @@ function App() {
     []
   );
   const shoudUseHeadsetUI = (
-    <h3>
+    <h5>
       {hasHeadset === false
-        ? "Please use a headphone to use this application."
+        ? "No headset device detected"
         : hasHeadset == null
         ? "Checking headphone..."
         : "Try saying - I am IronMan!"}
-    </h3>
+    </h5>
   );
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Audio Mirror - Test your mic !</h1>
+        <h1>Audio Mirror - Test your headset!</h1>
+        <h3>Please use headphone or keep mic away from speaker.</h3>
         {shoudUseHeadsetUI}
         <div className={["App-logo", hasHeadset ? " active" : ""].join("")} alt="logo" />
-        <p>This site needs audio permission</p>
+        <p>This site needs audio permission. if you are getting echo loop sound decrease the volume.</p>
         <a
           className="App-link"
           href="https://github.com/nadirlaskar/AudioMirror/blob/master/README.md"
