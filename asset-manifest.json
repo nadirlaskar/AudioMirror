@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/AudioMirror/static/css/main.53bb1e2f.chunk.css",
-    "main.js": "/AudioMirror/static/js/main.c1ff118c.chunk.js",
+    "main.js": "/AudioMirror/static/js/main.bc01bce4.chunk.js",
     "runtime-main.js": "/AudioMirror/static/js/runtime-main.8abe4741.js",
     "static/js/2.264bd936.chunk.js": "/AudioMirror/static/js/2.264bd936.chunk.js",
     "index.html": "/AudioMirror/index.html",
-    "precache-manifest.c5ea548704766bb0a2db439cccdf9687.js": "/AudioMirror/precache-manifest.c5ea548704766bb0a2db439cccdf9687.js",
+    "precache-manifest.fe5fabc0f07a2eae3ad16869e1803eec.js": "/AudioMirror/precache-manifest.fe5fabc0f07a2eae3ad16869e1803eec.js",
     "service-worker.js": "/AudioMirror/service-worker.js",
     "static/js/2.264bd936.chunk.js.LICENSE.txt": "/AudioMirror/static/js/2.264bd936.chunk.js.LICENSE.txt",
     "static/media/App.css": "/AudioMirror/static/media/logo.45e516f8.svg"
@@ -14,6 +14,6 @@
     "static/js/runtime-main.8abe4741.js",
     "static/js/2.264bd936.chunk.js",
     "static/css/main.53bb1e2f.chunk.css",
-    "static/js/main.c1ff118c.chunk.js"
+    "static/js/main.bc01bce4.chunk.js"
   ]
 }
