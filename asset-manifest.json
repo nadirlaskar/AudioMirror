@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/AudioMirror/static/css/main.422bfd93.chunk.css",
-    "main.js": "/AudioMirror/static/js/main.177ea4c9.chunk.js",
+    "main.css": "/AudioMirror/static/css/main.53bb1e2f.chunk.css",
+    "main.js": "/AudioMirror/static/js/main.c1ff118c.chunk.js",
     "runtime-main.js": "/AudioMirror/static/js/runtime-main.8abe4741.js",
     "static/js/2.264bd936.chunk.js": "/AudioMirror/static/js/2.264bd936.chunk.js",
     "index.html": "/AudioMirror/index.html",
-    "precache-manifest.750652ac9f46b644a5b478d30921d137.js": "/AudioMirror/precache-manifest.750652ac9f46b644a5b478d30921d137.js",
+    "precache-manifest.c5ea548704766bb0a2db439cccdf9687.js": "/AudioMirror/precache-manifest.c5ea548704766bb0a2db439cccdf9687.js",
     "service-worker.js": "/AudioMirror/service-worker.js",
     "static/js/2.264bd936.chunk.js.LICENSE.txt": "/AudioMirror/static/js/2.264bd936.chunk.js.LICENSE.txt",
     "static/media/App.css": "/AudioMirror/static/media/logo.45e516f8.svg"
@@ -13,7 +13,7 @@
   "entrypoints": [
     "static/js/runtime-main.8abe4741.js",
     "static/js/2.264bd936.chunk.js",
-    "static/css/main.422bfd93.chunk.css",
-    "static/js/main.177ea4c9.chunk.js"
+    "static/css/main.53bb1e2f.chunk.css",
+    "static/js/main.c1ff118c.chunk.js"
   ]
 }
