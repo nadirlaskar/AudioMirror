@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05aa4a9b5890fe6d0c5fbc85de88cb31",
+    "revision": "1fc50f7d2d9af9d24d1a4182578a7528",
     "url": "/AudioMirror/index.html"
   },
   {
-    "revision": "653cfabee850c3995d3f",
+    "revision": "8164c8dfe604ad809b63",
     "url": "/AudioMirror/static/css/main.53bb1e2f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AudioMirror/static/js/2.264bd936.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "653cfabee850c3995d3f",
-    "url": "/AudioMirror/static/js/main.bc01bce4.chunk.js"
+    "revision": "8164c8dfe604ad809b63",
+    "url": "/AudioMirror/static/js/main.578c9b65.chunk.js"
   },
   {
     "revision": "ab478c476deccbe827cd",
