@@ -12,14 +12,15 @@ const hasHeadsetCheck = (callback) => {
           // like "headset" or "headphones"
           let headphonesConnected = devices
             .filter((device) => /audio\w+/.test(device.kind))
-            .find((device) => device.label.toLowerCase().includes("head"));
+            .find((device) => device !== "");
           if (headphonesConnected) {
             callback(true);
           } else {
             callback(false);
           }
         });
-      }).catch(() => callback(false));
+      })
+      .catch(() => callback(false));
   };
   updateDevices();
   // add an ondevicechange event listener so we can tell when
@@ -52,7 +53,10 @@ function App() {
         <h3>Please use headphone or keep mic away from speaker.</h3>
         {shoudUseHeadsetUI}
         <div className={["App-logo", hasHeadset ? " active" : ""].join("")} alt="logo" />
-        <p>This site needs audio permission. if you are getting echo loop mute the speaker, for best result use headphone.</p>
+        <p>
+          This site needs audio permission. if you are getting echo loop mute the speaker, for best result use
+          headphone.
+        </p>
         <a
           className="App-link"
           href="https://github.com/nadirlaskar/AudioMirror/blob/master/README.md"
